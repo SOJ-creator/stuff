@@ -1,0 +1,46 @@
+html{
+    font-size: 20px ;
+}
+
+
+p{
+    font-size: 5rem ;
+}
+
+span{
+    font-size:  25em;
+}
+.a{
+    font-size: 5px;
+}
+.box{ 
+    width: 90px;
+    height: 90px;
+    border: 3px solid transparent;
+    /* padding: 40px  30px; */
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 30px;
+    margin: 0 auto;
+    /* background-color: blue; */
+    background: conic-gradient(red,blue,blue,red)padding-box, linear-gradient(red,orange,black,pink,green,brown,white,indigo,indigo,white,brown,green,pink,black,orange,red);
+    box-shadow: 10px 11px 100px 60px rgb(0, 0, 0);
+    border-radius: 40px;
+}
+body{
+    background: url(https://images.unsplash.com/photo-1526779259212-939e64788e3c?q=80&w=1748&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position:  center;
+    background-size: contain;
+    background-attachment: fixed;
+}
+ div p{
+    color: brown;
+    font-size: 80px;
+    font-family:'Gill Sans', 'Gill San 'Trebuchetsans-serif;
+    font-weight: 900;
+    font-style: oblique;
+    text-align: center;
+    text-decoration: 2px solid underline;
+    text-shadow: 10px 20px 30px black;
+ }

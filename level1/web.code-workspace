@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../AI Automation Hub"
+		}
+	],
+	"settings": {
+		"explorer.compactFolders": false,
+		"liveServer.settings.multiRootWorkspaceName": "web"
+	}
+}

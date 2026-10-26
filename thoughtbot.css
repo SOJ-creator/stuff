@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    background-color: #1a1115;
+text-align: center;
+    color: white;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    min-height: 100px;
+}
+
+
+
+
+header {
+    width: 90%;
+    margin: 0 auto;
+
+    height: 75px;
+
+    display:flex ;
+    align-items: center;
+
+    
+}
+
+
+
+nav {
+    display: flex;
+    gap: 20px;
+
+    align-items: center;
+
+    flex: 1;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+
+    font-size: 13px;
+}
+
+
+nav .blog {
+    color: #ffb400;
+}
+
+.start-button {
+text-decoration: none;
+    background: #d33520;
+    color: white;
+
+    padding: 11px 19px;
+
+    border-radius: 25px;
+
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+
+
+main {
+    width: 650px;
+    margin-left: 300px;
+}
+
+
+
+.hero {
+    padding-top: 100px;
+    padding-bottom: 35px;
+    text-align: left;
+}
+
+.hero h1 {
+    font-size: 38px;
+    line-height: 1.05;
+
+    font-weight: 700;
+
+    margin-bottom: 15px;
+}
+
+.hero p {
+    color: #eeeeee;
+
+    font-size: 15px;
+
+    line-height: 1.5;
+
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+}
+
+.hero p span {
+    color: #ffb000;
+    font-weight: bold;
+}
+
+
+
+.categories {
+    display: flex;
+
+    gap: 8px;
+
+    padding-bottom: 25px;
+
+
+}
+
+.categories button {
+    background: transparent;
+
+    color: white;
+
+    border: 1px solid #aaa;
+
+    border-radius: 18px;
+
+    padding: 7px 13px;
+
+    font-size: 11px;
+}
+
+.categories .active {
+    background: #ffd000;
+
+    border-color: #ffd000;
+
+    color: #1a1115;
+}
+
+
+
+
+article {
+    padding: 35px 0;
+text-align: left;
+
+}
+
+article h2 {
+    font-size: 25px;
+
+
+
+    margin-bottom: 10px;
+}
+
+article p {
+    color: #e3e3e3;
+
+    font-size: 14px;
+
+
+
+    margin-bottom: 10px;
+}
+
+.author {
+    color: #ffb000;
+
+    font-size: 11px;
+
+    font-weight: bold;
+
+    margin-bottom: 7px;
+}
+
+.tags {
+    font-size: 9px;
+
+    color: #ffffff;
+
+    font-weight: bold;
+
+    }
+
+.events {
+    padding: 55px 0;
+    text-align: left;
+}
+
+.events h2 {
+    font-size: 28px;
+
+    margin-bottom: 10px;
+}
+
+.events p {
+    color: #ddd;
+
+    font-size: 14px;
+
+    margin-bottom: 10px;
+}
+
+.event-tags {
+    color: #ffb000;
+
+    font-size: 10px;
+
+    font-weight: bold;
+}
+
+.pages {
+    margin-top: 30px;
+
+    text-align: center;
+
+    font-size: 13px;
+
+    word-spacing: 8px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid #2F1C1C;
+}
+.second-born{
+    margin-right: 100px;
+    margin-top: 60px;
+    width: 500px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-underline-offset: 3px;
+}
+.second-born :nth-child(1){
+    padding: 5px;
+    text-align: center;
+display: flex;
+justify-content:space-between;
+    align-items: flex-start;
+}
+.second-born :nth-child(2){
+    padding: 5px;
+    text-align: center;
+display: flex;
+justify-content:space-between;
+    align-items: flex-start;
+}
+.second-born :nth-child(3){
+    padding: 5px;
+    text-align: center;
+display: flex;
+justify-content:space-between;
+    align-items: flex-start;
+}
+.second-born :nth-child(4){
+    padding: 5px;
+    text-align: left;
+display: flex;
+justify-content:space-between;
+    align-items: flex-start;
+}
+.second-born :nth-child(5){
+    padding: 5px;
+    text-align: left;
+display: flex;
+justify-content:space-between;
+    align-items: flex-start;
+}
+.second-born :nth-child(6){
+    padding: 5px;
+    text-align: center;
+display: flex;
+justify-content:space-between;
+    align-items: flex-start;
+}
+.Talk {
+color: #ffb400;
+}
+.last {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: left;
+    gap: 5px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+.last :nth-child(2){
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    font-weight: 2px;
+    text-underline-offset: 3px;
+}
+.email {
+    background-color: transparent;
+    padding: 20px 90px;
+    border-right-color: transparent;
+}
+.deco {
+    text-align: left;
+    background-color: #2F1C1C;
+    padding: 30px 30px;
+}

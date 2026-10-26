@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.groupdiv{
+    display: flex;
+    gap: 20px;
+}
+.groupdiv div{
+    width: 100px;
+    height: 100px;
+}
+
+.groupdiv :nth-child(1){
+    background-color: blue;
+}
+.groupdiv :nth-child(2){
+    background-color: brown;
+}
+.groupdiv :nth-child(3){
+    background-color: rgb(28, 160, 105);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.groupdiv :nth-child(4){
+    background-color: aqua;
+}
+.groupdiv :nth-child(5){
+    background-color: bisque;
+}

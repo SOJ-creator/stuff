@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 0.6fr 0.4fr 1fr 0.4fr 0.6fr;
+    width: 90%;
+    margin: 100px auto;
+    height: 120vh;
+}
+.grid :nth-child(1){
+    display: grid;
+    grid-template-rows: 0.6fr 1.5fr 1fr;
+    gap: 10px;
+}
+
+.grid :nth-child(1) div {
+    background-color:black;
+    border-radius: 10px;
+    
+}
+
+.grid :nth-child(2){
+    display: grid;
+    grid-template-rows: 1.2fr 1.5fr 0.8fr;
+    gap: 10px;
+}
+
+.grid :nth-child(2) div {
+    background-color: black;
+    border-radius: 10px;
+    
+    
+}
+
+.grid :nth-child(3){
+    display: grid;
+    grid-template-rows: 0.8fr 1.5fr 1.2fr;
+    gap: 10px;
+}
+
+.grid :nth-child(3) div{
+    background-color: black;
+    border-radius: 10px;
+}
+
+.grid :nth-child(4){
+    display: grid;
+    grid-template-rows: 1.2fr 1.5fr 0.8fr;
+    gap: 10px;
+}
+
+.grid :nth-child(4) div{
+    background-color: black;
+    border-radius: 10px;
+}
+
+.grid :nth-child(5){
+    display: grid;
+    grid-template-rows: 0.7fr 1.2fr 0.9fr;
+    gap: 10px;
+}
+
+.grid :nth-child(5) div{
+    background-color: black;
+    border-radius: 10px;
+}
+.aa {
+    background-image: url(../media/openai.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bb {
+    background-image: url(../media/opal.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cc {
+    background-image: url(../media/feastables.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.dd {
+    background-image: url(../media/gumroad.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ff {
+    background-image: url(../media/skims.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.gg {
+    background-image:url(../media/reddit.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hh {
+    background-image: url(../media/rivian.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ee {
+    background-image: url(../media/shopify.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ii {
+    background-image: url(../media/clerk.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.jj {
+    background-image:url(../media/verge.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.kk {
+    background-image: url(../media/googleio.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ll {
+    background-image: url(../media/ted.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mm {
+    background-image: url(../media/poolside.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nn {
+    background-image: url(../media/midjourney.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.oo {
+    background-image: url(../media/nasa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grid div {
+    filter: contrast(82%);
+}
+.grid div div:hover {
+    filter: brightness(110%);
+     filter: contrast(100%);
+}
+.filters {
+  width: 1000px;
+  height: 330px;
+  margin: 50px auto;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 45px;
+}
+
+.box {
+  width: 170px;
+  height: 230px;
+  border: 1px solid #ddd;
+  position: relative;
+}
+
+.box p {
+  position: absolute;
+  top: -35px;
+  left: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.pic {
+  position: absolute;
+  width: 130px;
+  height: 160px;
+  left: 20px;
+  top: 80px;
+
+  animation: move 10s linear infinite;
+}
+
+@keyframes move {
+
+  0% {
+    transform: translateX(0);
+    filter: blur(5px);
+  }
+
+  18% {
+    transform: translateX(0);
+    filter: blur(5px);
+  }
+
+  20% {
+    transform: translateX(207px);
+    filter: brightness(150%);
+  }
+
+  38% {
+    transform: translateX(207px);
+    filter: brightness(150%);
+  }
+
+  40% {
+    transform: translateX(414px);
+    filter: grayscale(100%);
+  }
+
+  58% {
+    transform: translateX(414px);
+    filter: grayscale(100%);
+  }
+
+  60% {
+    transform: translateX(621px);
+    filter: contrast(150%);
+  }
+
+  78% {
+    transform: translateX(621px);
+    filter: contrast(150%);
+  }
+
+  80% {
+    transform: translateX(828px);
+    filter: saturate(200%);
+  }
+
+  98% {
+    transform: translateX(828px);
+    filter: saturate(200%);
+  }
+
+  100% {
+    transform: translateX(0);
+    filter: blur(5px);
+  }
+}

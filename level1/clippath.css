@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div div{
+    background-color: red;
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+div :nth-child(1){
+    clip-path: circle();
+}
+div :nth-child(2){
+    clip-path: ellipse();
+}
+div :nth-child(3){
+    clip-path: polygon( 
+        20% 5%,
+        25% 0%,
+        95% 0%,
+        100% 5%,
+        100% 95%,
+        95% 100%,
+        40% 100%,
+        35% 95%,
+        35% 80%,
+        30% 75%,
+        5% 75%,
+        0% 70%,
+        0% 35%,
+        5% 30%,
+        15% 30%,
+        20% 25%
+
+ );
+   clip-path: path("M 20%,0% A 10,10 0 0,1 100%,0% A 10,10 0 0,1 100%,100%Z");
+    margin: o auto;
+    margin-bottom: 90px;
+}
+div :nth-child(4){
+    clip-path: polygon( 
+        0% 5%,
+        5% 0%,
+        65% 0%,
+        70% 5%,
+        70% 45%,
+        75% 50%,
+        95% 50%,
+        100% 55%,
+        100% 95%,
+        95% 100%,
+        5% 100%,
+        0% 95%,
+        0% 5%
+
+ );
+   /* clip-path: path("M 0%, 5% L 5%, 0% L 65%, 0% L 70%, 5% L 70%, 45% L 75%, 50% L 95%, 50% L 100%, 55% L 100%, 95% L 95%, 100% L 5%, 100% L 0% L 0%, 5% Z"); */
+    margin: o auto;
+    border-radius: 20px;
+    margin-bottom: 90px;
+    
+}

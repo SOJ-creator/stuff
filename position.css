@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* div :nth-child(1){
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    padding: 4px;
+    position: ;
+}
+div :nth-child(2){ width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    padding: 4px;
+}
+div :nth-child(3){width: 100px;
+    height: 100px;
+    background-color: blue;
+    padding: 4px;} */
+    .parent{
+        width: 500px;
+        margin: 60px auto;
+        text-align: center;
+        position: relative;
+    }
+    .parent img{
+        margin-top: 100px;
+        position: absolute;
+        right: 140px;
+    }
+    .English{
+        position: absolute;
+        top: 80px;
+        left: 80px;
+    }
+    .chinko{
+        position: absolute;
+        left: 290px;
+        top: 80px;
+    }
+    .Deutsch {
+        position: absolute;
+        top: 150px;
+        left: 20px;
+    }
+    .Русский{
+        position: absolute;
+        top: 150px;
+        right: 10px;
+    }
+    .Français{
+        position: absolute;
+        top: 220px;
+        left: -10px;
+    }
+    .Español {
+        position: absolute;
+        top: 220px;
+        right: -10px;
+    }
+    .中文{
+       position: absolute;
+       top: 290px;
+       left: ;
+    }
+    .Italiano {
+        position: absolute;
+        top: 290px;
+        right: 30px;
+    }
+    .Polski {
+        position: absolute;
+        top: 360px;
+        left: 60px;
+    }
+    .Português {
+        position: absolute;
+        top: 360px;
+        right: 60px;
+    }
+    .wiki{
+        font-size: 20px;
+        font-family: ;
+    }
+    .wiki span {
+        font-size: 32px;
+    }
+    .blue {
+        color: blue;
+        font-weight: 3000px;
+        font-family: Arial, Helvetica, sans-serif;
+    }

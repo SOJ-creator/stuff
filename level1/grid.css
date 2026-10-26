@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.grid{
+    gap: 8px;
+    display: grid;
+    grid-template-columns: 200px 400px 200px;
+    height: 400px;
+    grid-template-areas: 
+    "a a a"
+    "b c d"
+    "b c d"
+    "e c d"
+    "f f f"
+    ;
+}
+.grid div{
+    padding: 10px 20px;
+    background-color: brown;
+}
+.grid :nth-child(1){
+    grid-area: a;
+}
+.grid :nth-child(2){
+    grid-area: b;
+}
+.grid :nth-child(3){
+    grid-area: c;
+}
+.grid :nth-child(4){
+    grid-area: d;
+}
+.grid :nth-child(5){
+    grid-area: e;
+}
+.grid :nth-child(6){
+    grid-area: f;
+}
